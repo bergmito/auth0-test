@@ -2,5 +2,6 @@ image:
   file: .gitpod.Dockerfile
 
 tasks:
-  - init: 'curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python'
-    command: 'export PATH=$HOME/.poetry/bin'
+
+  - before: ./setup.sh
+    init: 'git clone https://github.com/pyenv/pyenv.git ~/.pyenv'
