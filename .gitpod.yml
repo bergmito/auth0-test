@@ -3,4 +3,4 @@ image:
 
 tasks:
   - init: 'curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python'
-    command: 'source $HOME/.poetry/env'
+    command: 'export PATH=$HOME/.poetry/bin'
