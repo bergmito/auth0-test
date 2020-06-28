@@ -5,7 +5,9 @@ description = ""
 authors = ["bergmito"]
 
 [tool.poetry.dependencies]
-python = "3.6"
+python = "3.8.*"
+fastapi = "0.58.1"
+uvicorn = "0.11.5"
 
 [tool.poetry.dev-dependencies]
 
