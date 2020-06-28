@@ -1,7 +1,2 @@
 image:
   file: .gitpod.Dockerfile
-
-tasks:
-
-  - before: ./setup.sh
-    init: 'git clone https://github.com/pyenv/pyenv.git ~/.pyenv'
